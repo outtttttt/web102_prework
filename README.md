@@ -40,7 +40,7 @@ Some challenges I had while building this app was getting accustomed to differen
 
 ## License
 
-    Copyright [2025] [Alice Truong]
+    Copyright 2025 Alice Truong
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
