@@ -11,16 +11,53 @@ body {
 
 .header {
     display: flex;
+    flex-flow: wrap;
     background-color: lightblue;
-    padding: 1%;
+    padding: 2%;
     align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+.header nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 10px 3%;
+}
+.header nav a {
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+}
+
+body > h2, .background-info > h2, #description-container > p, body > p {
+    text-align: center;
+}
+body > h2 {
+    font-size: xx-large;
+}
+
+.background-info, #description-container, #games-container {
+    margin: auto;
+    padding: 0 5%;
+}
+
+.background-info {
+    font-size: x-large;
+    margin: auto;
+    padding: 10px;
 }
 
 .stats-container {
     display: flex;
+    align-items: normal;
+}
+.stats-container:hover {
+    cursor: pointer;
+    border: 1px solid lightblue;
+    box-shadow: inset 0 0 30px lightblue;
+    border-radius: 7px;
 }
 
 .stats-card {
